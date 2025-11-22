@@ -76,5 +76,21 @@ s a {
 }
 
 .navigation {
+  display: flex;
+  height: 60px;
   font-size: 20px;
+  text-align: center;
+  background-color: #0058a5;
+  align-items: center;
+  justify-content: center;
+}
+
+.navigation a {
+  color: white;
+  text-decoration: none;
+  padding: 0 25px;
+}
+
+.navigation a:hover {
+  color: orange;
 }
